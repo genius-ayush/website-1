@@ -1,0 +1,132 @@
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+.search-box input[type="text"] {
+    width: 200px;
+    padding: 6px 15px 10px 40px;
+    background-color: black;
+    border: 0.1px solid #9ba3b4;
+    color: #9ba3b4;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #9ba3b4;
+    opacity: 0.8;
+}
+
+.search-box .search-icon {
+    position: absolute;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    
+}
+
+.button{
+    background-color: #0078d4;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    height: 70px;
+}
+
+.upper{
+    font-size: 20px;
+}
+
+.lower{
+    font: 10px;
+}
+
+.label{
+    border: 0.1px solid gray;
+    background-color: #141414;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #9ba3b4;
+    font-size: small;
+}
+
+.thin-line {
+    border-top: 0.5px solid #f8fafc0f  ; /* Creates a thin horizontal line */
+    width: 100%; /* Adjust the width as needed */
+  }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(4, 1fr);  /* Four rows */
+  height: 250px;
+  /* gap: 10px;  */
+
+}
+
+.grid-item {
+    /* background-color: #141414; */
+    /* padding: 20px; */
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    display: flex ; 
+    height: 20px;
+    width: 100px;
+    padding-right: 100px;
+  }
+
+.language{
+    width: 40px;
+    height: 40px;
+}
+
+.lang{
+    margin-top: 12px;
+    color: white;
+}
+    
+.grid-item2{
+    background-color: #141414;
+    padding: 20px;
+    /* text-align: center;  */
+    border: 1px solid #f8fafc0f;
+    display: flex ; 
+    height: 60px;
+    width: 200px;
+    /* padding-right: 0px; */
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.minorLang{
+    color: #9ba3b4;
+    font-size: small;
+}
+
+.lang2{
+    /* margin-top: 12px; */
+    color: white;
+}
+
+.fade{
+    background: linear-gradient(#141414, #0E0E0E);
+}
+

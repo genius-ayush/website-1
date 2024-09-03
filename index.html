@@ -1,0 +1,385 @@
+<html>
+  <title>Visual Studio Code - Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</html>
+<body style="background-color: #0e0e0e; font-family: Arial, sans-serif">
+  <Navbar>
+    <div
+      style="
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 300px;
+      "
+    >
+      <div style="display: flex; margin-top: 15px">
+        <img
+          src="assets/vscodelogo.png"
+          alt=""
+          style="width: 24px; padding-right: 10px; height: 24px"
+        />
+
+        <div
+          style="
+            font-weight: 700;
+            color: #e9eaeb;
+            font-size: 20px;
+            padding-right: 30px;
+          "
+        >
+          Visual Studio Code
+        </div>
+
+        <div style="display: flex; color: #9ba3b4; gap: 20px; margin-top: 3px">
+          <div>Docs</div>
+          <div>Updates</div>
+
+          <div>Blog</div>
+
+          <div>API</div>
+
+          <div>Extensions</div>
+
+          <div>FAQ</div>
+        </div>
+      </div>
+
+      <div style="display: flex">
+        <div>
+          <img
+            src="assets/darkmode.svg"
+            alt=""
+            style="
+              width: 25px;
+              height: 25px;
+              padding-right: 10px;
+              margin-top: 16px;
+            "
+          />
+        </div>
+        <div class="search-box" style="margin-top: 10px">
+          <img class="search-icon" src="assets/searchicon.svg" alt="" />
+
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <button
+          style="
+            background-color: #0078d4;
+            color: white;
+            height: 36px;
+            border-radius: 4px;
+            border: 0px;
+            font-size: px;
+            margin-left: 10px;
+            margin-top: 9px;
+          "
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </Navbar>
+
+  <Hero style="color: white">
+    <div style="background: linear-gradient(to bottom, #0e0e0e, #141414)">
+      <div
+        style="
+          display: flex;
+          margin-top: 100;
+          justify-content: space-between;
+          padding-left: 300px;
+          padding-right: 300px;
+        "
+      >
+        <div style="margin-top: 40px">
+          <div class="label">Free. Built on open source. Runs everywhere.</div>
+          <div style="font-size: 60px; padding-top: 30px; padding-bottom: 20px">
+            Code Editing. Redefined.
+          </div>
+          <div style="margin-top: 20px">
+            <button class="button">
+              <div style="display: flex; margin-left: 25px; margin-bottom: 5px">
+                <img src="/assets/download.svg" alt="" style="width: 15px" />
+                <div class="upper">.deb</div>
+              </div>
+              <div class="lower">Debian, Ubuntu...</div>
+            </button>
+            <button class="button">
+              <div style="display: flex; margin-left: 25px; margin-bottom: 5px">
+                <img src="/assets/download.svg" alt="" style="width: 15px" />
+                <div class="upper">.rpm</div>
+              </div>
+              <div class="lower">Red Hat, Fedora...</div>
+            </button>
+          </div>
+
+          <div style="margin-top: 15px">
+            <span style="color: #0078d4; font-size: 16px"
+              >Web,Insiders edition,</span
+            >
+            or <span style="color: #0078d4">other platforms</span>
+          </div>
+          <div style="color: #9ba3b4; font-size: 12px; margin-top: 12px">
+            By using VS Code, you agree to its
+            <span style="color: #0078d4">license</span> and
+            <span style="color: #0078d4">privacy statement</span>.
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="assets/hero.png"
+            alt=""
+            style="width: 800px; padding-bottom: 70px"
+          />
+        </div>
+      </div>
+      <div class="thin-line"></div>
+    </div>
+  </Hero>
+
+  <Language>
+    <div
+      style="
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 300px;
+        padding-right: 300px;
+        /* height: 100%; */
+        margin-top: 100px;
+      "
+    >
+      <div style="width: 400px">
+        <div style="font-size: 33px; font-weight: 500; margin-top: 20px">
+          Code in any language
+        </div>
+        <div
+          style="
+            color: #9ba3b4;
+            margin-top: 10px;
+            font-size: 17px;
+            width: 350px;
+            line-height: 1.5;
+          "
+        >
+          VS Code supports almost every major programming language. Several ship
+          in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions
+          for others can be found in the VS Code Marketplace.
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="grid-item">
+          <img
+            src="assets/javascript.png"
+            alt=""
+            style="width: 40px; height: 40px"
+            class="language"
+          />
+          <div class="lang">JavaScript</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/typescript.png" alt="" class="language" />
+          <div class="lang">TypeScript</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/python.png" alt="" class="language" />
+          <div class="lang">Python</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/csharp.png" alt="" class="language" />
+          <div class="lang">C#</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/c++.png" alt="" class="language" />
+          <div class="lang">C++</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/html.png" alt="" srcset="" class="language" />
+          <div class="lang">HTML</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/java.png" alt="" class="language" />
+          <div class="lang">JAVA</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/json.png" alt="" class="language" />
+          <div class="lang">JSON</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/php.png" alt="" class="language" />
+          <div class="lang">PHP</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/markdown.png" alt="" class="language" />
+          <div class="lang">Markdown</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/powershell.png" alt="" class="language" />
+          <div class="lang">Powershell</div>
+        </div>
+
+        <div class="grid-item">
+          <img src="assets/yml.png" alt="" class="language" />
+          <div class="lang">YAML</div>
+        </div>
+      </div>
+    </div>
+  </Language>
+
+  <Extensions>
+    <div
+      style="
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 300px;
+        padding-right: 300px;
+        /* height: 100%; */
+        margin-top: 100px;
+      "
+    >
+      <div style="width: 400px">
+        <div style="font-size: 33px; font-weight: 500; margin-top: 20px">
+          Code with extensions
+        </div>
+        <div
+          style="
+            color: #9ba3b4;
+            margin-top: 10px;
+            font-size: 17px;
+            width: 350px;
+            line-height: 1.5;
+          "
+        >
+          Whether you're a beginner or an expert, we've got you covered. Choose
+          from hundreds of extensions to power up your VS Code experience.
+        </div>
+        <div style="color: #0078d4">Learn more about extensions.</div>
+      </div>
+
+      <div class="grid">
+        <div class="grid-item2">
+          <img
+            src="assets/pythongext.png"
+            alt=""
+            style="width: 40px; height: 40px"
+            class="language"
+          />
+          <div>
+            <div class="lang2">Python</div>
+            <div class="minorLang">Add rich language support for Python</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/copilotext.png" alt="" class="language" />
+          <div>
+            <div class="lang2">Github Copilot</div>
+            <div class="minorLang">Your AI pair programmer</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/c++ext.png" alt="" class="language" />
+          <div>
+            <div class="lang">C/C++</div>
+            <div class="minorLang">Adds rich language support for C/C++</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/jupyterext.png" alt="" class="language" />
+          <div>
+            <div class="lang2">Jupyter</div>
+            <div class="minorLang">Language support for Jupyter Notebooks</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/githubext.png" alt="" class="language" />
+          <div>
+            <div class="lang2">GitLens</div>
+            <div class="minorLang">Supercharge your Git experience</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/csharpext.png" alt="" srcset="" class="language" />
+          <div>
+            <div class="lang2">C# Dev Kit</div>
+            <div class="minorLang">Powerful tools for your C# environment</div>
+          </div>
+        </div>
+
+        <div class="grid-item2 , fade">
+          <img src="assets/pullreqext.png" alt="" class="language" />
+          <div>
+            <div class="lang2">GitHub Codespaces</div>
+            <div class="minorLang">
+              Fully configured dev environment in the cloud
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/pullreqext.png" alt="" class="language" />
+          <div>
+            <div class="lang2 , fade">Github Pull Requests</div>
+            <div class="minorLang">Collaborate on issues and pull requests</div>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <img src="assets/remotedevext.png" alt="" class="language" />
+          <div>
+            <div class="lang2">Remote Development</div>
+            <div class="minorLang">
+              Open folders in a container on a remote machine
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Extensions>
+
+  <Footer>
+    <div style="padding-left: 300px; padding-right: 300px; margin-top: 200px; margin-bottom: 100px; color: #9ba3b4;">
+    <div style="display: flex; justify-content: space-between ;">
+      <div style="display: flex; gap: 15px;">
+        <img src="assets/x.svg" alt="" style="width: 18px;"/>
+        <img src="assets/github.svg" alt="" />
+        <img src="assets/yt.svg" alt="" />
+      </div>
+
+      <div>
+        <img src="assets/windows.svg" alt="" />
+      </div>
+    </div>
+
+    <div style="display: flex; font-size: small; gap: 10px;">
+      <div>Support</div>
+      <div>Privacy</div>
+      <div>Terms Of Use</div>
+      <div>License</div>
+    </div>
+
+  </div>
+  </Footer>
+
+  
+</body>
